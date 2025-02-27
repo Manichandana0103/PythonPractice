@@ -21,5 +21,16 @@ To see the latest local changes:
 
 To exactly see the changes made on a single file:
 
-    git diff 
+    git diff filename
 
+To stage the changes:
+
+    git add filename
+
+To commit the changes:
+
+    git commit -m "commit message"
+
+To push the change:
+
+    git push origin <SourceBranch>
