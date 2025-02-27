@@ -19,7 +19,7 @@ To see the latest local changes:
 
     git status
 
-To exactly see the changes made on a single file:
+To check/verify see the changes made on a single file:
 
     git diff filename
 
@@ -34,3 +34,27 @@ To commit the changes:
 To push the change:
 
     git push origin <SourceBranch>
+
+        class -> main
+        ex: get push origin class01
+
+### Daily
+
+To check the branch is clean
+
+    git status
+
+To checkout to the main branch
+
+    git checkout main
+
+To get the latest changes
+
+    git pull origin main
+
+To create new branch
+
+    git checkout -b <newbranchname>
+
+    
+
